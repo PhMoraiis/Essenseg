@@ -6,10 +6,12 @@ import ImageLogo from '../../assets/LogoNomes.png'
 
 const Navbar = () => {
     return (
-      <Wrapper>
+        <Wrapper>
             <Container>
                 <Row>
-                    <Logo src={ImageLogo} />
+                    <Menu>
+                        <Logo src={ImageLogo} />
+                    </Menu>
                 </Row>
                 <Row>
                     <Menu>Home</Menu>
@@ -21,6 +23,6 @@ const Navbar = () => {
             </Container>
         </Wrapper>
     )
-  }
-  
+}
+
 export { Navbar }

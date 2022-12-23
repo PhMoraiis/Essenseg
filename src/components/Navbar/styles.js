@@ -2,40 +2,35 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    max-width: 80%;
-    height: 47px;
+    max-width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 0;
-    margin-top: 3rem;
+    margin: 10px auto;
 `;
 
 export const Row = styled.div`
     display: flex;
-    flex-direction: row;
     align-items: center;
 `;
 
 export const Wrapper = styled.div`
+    background-color: #ffffff73;  
     width: 100vw;
-    height: 47px;
     display: flex;
     justify-content: center;
     align-items: center;
 `;
 
 export const Menu = styled.a`
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.1rem;
     line-height: 25px;
-    color: #777183;
+    color: #535353;
     margin-right: 3rem;
     text-decoration: none;
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.8;
 
     &:hover {
         opacity: 1;
@@ -48,10 +43,6 @@ export const Menu = styled.a`
 export const Logo = styled.img`
     cursor: pointer;
     width: 260px;
-    height: 70px;
-
-    &:hover {
-        transition: 1s ease;
-        transform: scale(1.1);
-    }
+    height: 60px;
+    margin-left: 3rem;
 `;

@@ -1,14 +1,11 @@
 import { Navbar } from '../../components/Navbar'
-import { Main } from '../../components/Main'
-import { Services } from '../../components/Services'
-import { Feedback } from '../../components/Feedback'
-import { Local } from '../../components/Local'
-import { Footer } from '../../components/Footer'
+import { Cards } from '../../components/Cards'
 
 
 const Home = () => {
   return (<>
       <Navbar />
+      <Cards />
   </>
   )
 }

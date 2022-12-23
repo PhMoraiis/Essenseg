@@ -9,9 +9,7 @@ const Navbar = () => {
         <Wrapper>
             <Container>
                 <Row>
-                    <Menu>
-                        <Logo src={ImageLogo} />
-                    </Menu>
+                    <Logo src={ImageLogo} />
                 </Row>
                 <Row>
                     <Menu>Home</Menu>
